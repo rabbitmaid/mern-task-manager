@@ -27,7 +27,7 @@ A full-stack Task Manager application built with the MERN stack (MongoDB, Expres
 
 ### Prerequisites
 
-- Node.js (v16+ recommended)
+- Node.js (v22+ recommended)
 - MongoDB running locally or a cloud MongoDB URI
 
 ---
