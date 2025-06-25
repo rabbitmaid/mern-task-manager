@@ -60,7 +60,7 @@ JWT_SECRET=your_jwt_secret_key
 npm run dev
 ```
 
-The backend server will run on `http://localhost:5000`.
+The backend server will run on `http://localhost:3000`.
 
 ---
 
@@ -100,14 +100,14 @@ The frontend will be available at `http://localhost:3000`.
 ## Project Structure
 
 ```
-/backend
+/server
   ├── controllers/
   ├── middleware/
   ├── models/
   ├── routes/
   ├── server.js
   ├── .env
-/frontend
+/client
   ├── src/
       ├── components/
       │   ├── Login.jsx
@@ -115,9 +115,8 @@ The frontend will be available at `http://localhost:3000`.
       │   ├── TaskForm.jsx
       ├── App.jsx
       ├── index.css
-      ├── index.js
-  ├── tailwind.config.js
-  ├── postcss.config.js
+      ├── main.js
+  ├── vite.config.js
 ```
 
 ---
@@ -138,11 +137,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## License
 
-MIT License
-
----
-
-## Contact
-
-Your Name – your.email@example.com  
-Project Link: https://github.com/yourusername/mern-task-manager
+MIT License.
