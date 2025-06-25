@@ -49,7 +49,7 @@ npm install
 3. Create a `.env` file in the root of backend with the following variables:
 
 ```env
-PORT=5000
+PORT=3000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 ```
@@ -84,7 +84,7 @@ npm install
 npm start
 ```
 
-The frontend will be available at `http://localhost:3000`.
+The frontend will be available at `http://localhost:5173` by default.
 
 ---
 
@@ -124,7 +124,7 @@ The frontend will be available at `http://localhost:3000`.
 ## Important Notes
 
 - JWT tokens are stored in `localStorage`. For production apps, consider more secure storage methods such as HttpOnly cookies.
-- Ensure your backend API URL matches the URL used in frontend fetch calls (`http://localhost:5000` by default).
+- Ensure your backend API URL matches the URL used in frontend fetch calls (`http://localhost:3000` by default).
 - Handle CORS properly in backend if frontend and backend run on different origins.
 
 ---
