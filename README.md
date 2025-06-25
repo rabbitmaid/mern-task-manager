@@ -37,7 +37,7 @@ A full-stack Task Manager application built with the MERN stack (MongoDB, Expres
 1. Clone the repo and navigate to the backend folder (if split):
 
 ```bash
-cd backend
+cd server
 ```
 
 2. Install dependencies:
@@ -69,7 +69,7 @@ The backend server will run on `http://localhost:3000`.
 1. Navigate to frontend folder:
 
 ```bash
-cd frontend
+cd client
 ```
 
 2. Install dependencies:
